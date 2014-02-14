@@ -6,7 +6,7 @@ We are going to make a talking robot using a Raspberry Pi. A Raspberry Pi is a s
 
 This small computer features amazing HD (high-definition) quality video and playback, sports high quality audio and has the ability to play 3D games. 
 
-To get going with your Raspberry Pi, you will need to connect cables and add an SD card before logging in.
+To use this tutorial you will need a Raspberry Pi, a few electronics components, and ScratchGPIO already installed on your SD card. [See here for instructions on how to do this](http://cymplecy.github.io/scratch_gpio/ "Scratch GPIO install instructions")
 
 ## Step 0: Setting up your Raspberry Pi
 
