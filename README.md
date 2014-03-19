@@ -14,7 +14,7 @@ First you will set up your Raspberry Pi but not connect the micro USB power supp
 
 - Raspberry Pi
 - Micro USB power adaptor
-- An SD Card with Raspbian already set up through NOOBS
+- An SD card with Raspbian already set up through NOOBS
 - USB keyboard
 - USB mouse
 - HDMI cable
