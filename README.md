@@ -10,7 +10,7 @@ To use this tutorial you will need a Raspberry Pi, a few electronics components,
 
 ## Step 0: Setting up your Raspberry Pi
 
-First you will set up your Raspberry Pi but not connect the micro USB power supply, as right now it needs to be turned off. Check that you have all the parts you need to get your Raspberry Pi set up:
+First check that you have all the parts you need to get your Raspberry Pi set up and working.
 
 - Raspberry Pi
 - Micro USB power adaptor
@@ -19,15 +19,19 @@ First you will set up your Raspberry Pi but not connect the micro USB power supp
 - USB mouse
 - HDMI cable
 - A monitor or TV
-- Headphones or a speaker
 
 ###Activity Checklist:
 
 1.	Place the SD card into the slot of your Raspberry Pi. It will only fit one way so be careful not to break the card. 
+2.	Next connect the HDMI cable from the monitor (or TV) to the HDMI port on the Pi and turn on your monitor. 
+3.	Plug the USB keyboard and mouse into the USB ports on the Pi.
+4.	Plug in the micro USB power supply and you should see some text appear on your screen.
+5.  When prompted to login type:
 
-2.	Next connect the HDMI cable from the monitor (or TV) to the HDMI port on the Pi, and turn on your monitor. 
-
-3.	Plug in a USB keyboard and mouse into the USB ports on the Pi.
+    ```
+    Login: pi
+    Password: raspberry
+    ```
 
 
 ## Step 1: Making an antenna for your robot
