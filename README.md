@@ -4,7 +4,7 @@
 
 We are going to make a talking robot using a Raspberry Pi. A Raspberry Pi is a small computer that we can use to create exciting technology. It was created in the UK by the Raspberry Pi Foundation to help young people like you learn how to code.
 
-This small computer features amazing HD (high-definition) quality video and playback, sports high quality audio and has the ability to play 3D games. 
+This small computer features amazing HD (high-definition) quality video and playback, sports high quality audio, and has the ability to play 3D games. 
 
 To use this tutorial you will need a Raspberry Pi, a few electronics components, and ScratchGPIO already installed on your SD card. [See here for instructions on how to do this](http://cymplecy.github.io/scratch_gpio/ "Scratch GPIO install instructions")
 
@@ -20,7 +20,7 @@ First check that you have all the parts you need to get your Raspberry Pi set up
 - HDMI cable
 - A monitor or TV
 
-###Activity Checklist:
+###Activity checklist:
 
 1.	Place the SD card into the slot of your Raspberry Pi. It will only fit one way so be careful not to break the card. 
 2.	Next connect the HDMI cable from the monitor (or TV) to the HDMI port on the Pi and turn on your monitor. 
@@ -38,7 +38,7 @@ First check that you have all the parts you need to get your Raspberry Pi set up
 
 Let’s get hands-on with electronics!  This is where the Raspberry Pi comes in handy. You will program a small light called an LED (Light Emitting Diode) to flash.
 
-You will need a coloured LED, a straightened paper clip (not plastic-coated), a 220 ohm resistor and 4 female to female jumper wires.
+You will need a coloured LED, a straightened paper clip (not plastic-coated), a 220 ohm resistor, and 4 female to female jumper wires.
 
 ![](components.png "Components you will need")
 
@@ -64,7 +64,7 @@ You will need a coloured LED, a straightened paper clip (not plastic-coated), a 
 
 7.  Plug in the micro USB power supply and you should see some text appear on your screen.
 
-####How the light antenna works:
+####How the light antenna works
 
 Now you have a circuit and the LED should be on. But why does the LED shine? 
 
@@ -83,7 +83,7 @@ For this section you will need to use pin 11 rather than pin 1 to power your LED
 
 You will need ScratchGPIO installed (see the instructions sheet for installing ScratchGPIO).
 
-###Activity Checklist:
+###Activity checklist:
 
 1.	Switch off the power to the Raspberry Pi. Move your jumper wire from pin 1 to pin 11. (Use the diagram from earlier to locate pin 11.) Then switch the power back on. 
 
@@ -147,9 +147,9 @@ You will need ScratchGPIO installed (see the instructions sheet for installing S
 
 You will now make a cardboard robot and add your light antenna. 
 
-First you need to make your robot. To do this you will need colouring pencils, A4 paper, scissors, glue or sticky tape, a cardboard tube, plasticine or blu tack and a printer. 
+First you need to make your robot. To do this you will need colouring pencils, A4 paper, scissors, glue or sticky tape, a cardboard tube, plasticine or blu tack, and a printer. 
 
-###Activity Checklist:
+###Activity checklist:
 
 1.	On a sheet of A4 paper, draw or print your own robot design. It should be drawn in portrait orientation so it can be wrapped around your cardboard tube. Make sure it has an antenna!
 
@@ -169,7 +169,7 @@ First you need to make your robot. To do this you will need colouring pencils, A
 
 7.	Remove the plasticine/blu tack.
 
-8.	Put your circuit of jumper wires, LED, resistor and paper clip inside your cardboard tube. Push your LED through the hole in the tube to make the robot’s antenna. 
+8.	Put your circuit of jumper wires, LED, resistor, and paper clip inside your cardboard tube. Push your LED through the hole in the tube to make the robot’s antenna. 
 
 9.	Give your robot a name and welcome it to the world. 
 
