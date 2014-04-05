@@ -10,24 +10,7 @@ To use this tutorial you will need a Raspberry Pi, a few electronics components,
 
 ## Step 0: Setting up your Raspberry Pi
 
-First you will set up your Raspberry Pi but not connect the Micro USB power supply as right now it needs to be turned off. Check that you have all the parts you need to get your Raspberry Pi set up:
-
-- Raspberry Pi
-- Micro USB power adapter
-- An SD Card with Raspbian already set up through NOOBS
-- USB Keyboard
-- USB Mouse
-- HDMI cable
-- A Monitor or TV
-- Headphones or a speaker
-
-**Activity Checklist:**
-
-1.	Place the SD card into the slot of your Raspberry Pi. It will only fit one way so be careful not to break the card.
-
-2.	Next connect the HDMI cable from the monitor (or TV) to the HDMI port on the Pi and turn on your monitor.
-
-3.	Plug in a USB keyboard and Mouse into the USB slots on the Pi.
+You will need to set up your Raspberry Pi to take part in this activity. See the [Raspberry Pi Start Guide here](http://www.raspberrypi.org/help/quick-start-guide/) to get you up and running.
 
 
 ## Step 1: Making an antenna for your robot
