@@ -2,7 +2,7 @@
 
 **Introduction**
 
-We are going to make a robot that beeps and had a flashing antenna using a Raspberry Pi. A Raspberry Pi is a small computer that we can use to create exciting technology. It was created in the UK by the Raspberry Pi Foundation to help young people like you learn how to code.
+We are going to make a robot that beeps and has a flashing antenna using a Raspberry Pi. A Raspberry Pi is a small computer that we can use to create exciting technology. It was created in the UK by the Raspberry Pi Foundation to help young people like you learn how to code.
 
 This small computer features amazing HD (high-definition) quality video and playback, sports high quality audio and has the ability to play 3D games.
 
