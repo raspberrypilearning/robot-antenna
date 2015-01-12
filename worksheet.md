@@ -6,10 +6,6 @@ We are going to make a robot that beeps and has a flashing antenna using a Raspb
 
 Let's get hands on with electronics!  This is where the Raspberry Pi comes in handy. You will program a small light called a LED (Light Emitting Diode) to flash.
 
-You will need a coloured LED, a straightened paper clip (non plastic coasted), a 220 ohm resistor and 4 female to female jumper wires.
-
-![](images/components.png "Components you will need")
-
 1.  The LED has a short leg and a long leg. Slot a jumper wire onto the long leg.
 
 2.  Slot the resistor into the other end of the same jumper wire.
