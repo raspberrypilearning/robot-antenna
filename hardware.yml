@@ -1,0 +1,9 @@
+- name: 1 x LED
+  img: led
+  url: http://shop.pimoroni.com/products/led-5mm-pack-of-10
+- name: 1 x 220 ohm resistor
+  img: resistor
+  url: http://shop.pimoroni.com/products/resistor-grab-bag
+- name: 4 x Female-to-female jumper leads
+  img: female-to-female-jumper
+  url: http://shop.pimoroni.com/products/jumper-jerky
