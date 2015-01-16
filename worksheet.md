@@ -16,7 +16,7 @@ Let's get hands on with electronics!  This is where the Raspberry Pi comes in ha
 
 5.  Find pin 1 and pin 6 on your Raspberry Pi using the diagram below:
 
-    ![](images/GPIO1.png "The Raspberry Pi GPIO pins")
+    ![](images/gpio.png "The Raspberry Pi GPIO pins")
 
     The general purpose input ouput (GPIO) pins on the Raspberry Pi speak and listen to the outside world and can be          controlled or programmed.  Each pin his a specific role. To make life easier the pins are numbered for reference.         Pin 1 is for power. Pin 6 is for grounding.
 
@@ -113,9 +113,11 @@ You will make a cardboard robot and add your light antenna.
 
 5.  Stick plasticine or blu tack behind the robot's antenna inside the cardboard tube.
 
+    ![](images/cardboard2.png)
+
 6.  Push a pencil into the antenna to make a hole through the cardboard tube.
 
-    ![](images/cardboard2.png "Make a hole in the cardboard for the LED antenna")
+    ![](images/cardboard3.png "Make a hole in the cardboard for the LED antenna")
 
 7.  Remove the plasticine.
 
