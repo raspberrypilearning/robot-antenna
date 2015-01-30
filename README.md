@@ -24,6 +24,10 @@ As well as an SD card loaded with Raspbian you'll need:
 
 - 1 x paper clip
 
+## The worksheet
+
+- [Worksheet](worksheet.md)
+
 ## Licence
 
 Unless otherwise specified, everything in this repository is covered by the following licence:
