@@ -1,6 +1,8 @@
 ## Software Installation
 
-You'll need to be online to install packages.
+You'll need to install **ScratchGPIO**.
+
+You'll need to be online to install this software.
 
 First update and upgrade your system. Enter the following commands in to the terminal:
 
