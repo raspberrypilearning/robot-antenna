@@ -12,7 +12,9 @@ Let's get hands on with electronics!  This is where the Raspberry Pi comes in ha
 
 3.  Add another jumper wire the other end of the resistor.
 
-4.  Make another jumper wire and slot one end onto the short leg of the LED, and the other end onto the paper clip (unfolded).
+4.  Make another jumper wire and slot one end onto the short leg of the LED. You should end up with something that looks like this:
+
+    ![](images/led-wired.png)
 
 5.  Find pin 1 and pin 6 on your Raspberry Pi using the diagram below:
 
@@ -40,7 +42,9 @@ Now you have an antenna that lights up, and it is connected to your Raspberry Pi
 
 For this section you will need to use pin 11 rather than pin 1 to power your LED. Pin 11 is special as it can switch power on and off – if you tell it to!
 
-1.  Switch off the power to the Raspberry Pi. Move your jumper wire from pin 1 to pin 11. (Use the diagram from earlier to locate pin 11. Then switch the power back on.
+1.  Switch off the power to the Raspberry Pi. Move your jumper wire from pin 1 to pin 11. See the diagram below to make sure that your circuit is correct:
+
+    ![](images/finished-circuit.png)
 
 2.  When prompted to login type:
 
