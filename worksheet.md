@@ -4,7 +4,7 @@ We are going to make a robot that beeps and has a flashing antenna using a Raspb
 
 ## Making an antenna for your robot
 
-Let's get hands on with electronics!  This is where the Raspberry Pi comes in handy. You will program a small light called a LED (Light Emitting Diode) to flash.
+Let's get hands on with electronics!  This is where the Raspberry Pi comes in handy. You will program a small light called a LED (Light Emitting Diode) to flash. First you will need to make a circuit. Ensure that your Raspberry Pi is switched on and ready to go.
 
 1.  The LED has a short leg and a long leg. Slot a jumper wire onto the long leg.
 
@@ -20,19 +20,19 @@ Let's get hands on with electronics!  This is where the Raspberry Pi comes in ha
 
     ![](images/gpio.png "The Raspberry Pi GPIO pins")
 
-    The general purpose input ouput (GPIO) pins on the Raspberry Pi speak and listen to the outside world and can be          controlled or programmed.  Each pin his a specific role. To make life easier the pins are numbered for reference.         Pin 1 is for power. Pin 6 is for grounding.
+    The general purpose input ouput (GPIO) pins on the Raspberry Pi speak and listen to the outside world and can be          controlled or programmed.  Each pin has a specific role. To make life easier the pins are numbered for reference.         Pin 1 is for power. Pin 6 is for grounding.
 
-6.  Plug the resistor jumper wire into pin 1 on your Raspberry Pi and the paperclip jumper wire into pin 6.
+6.  Plug the resistor jumper wire into pin 1 on your Raspberry Pi and the other jumper wire into pin 6.
 
 7.  Plug in the micro USB power supply and you should see some text appear on your screen.
 
 **How the light antenna works:**
 
-Now you have a circuit and the LED should be on. But why does the LED shine?
+Now you have a circuit and the LED should be on. If it is not, make sure that you have plugged the jumper wires into the correct pins by checking the diagram above. 
 
-When the circuit is plugged into the Raspberry Pi GPIO pins, electricity flows through the circuit. The flow is called the current.
+Why does the LED shine?
 
-The LED lights up only when electric current flows from the long leg through the bulb to the short leg.
+When the circuit is plugged into the Raspberry Pi GPIO pins, electricity flows through the circuit. The flow is called the current. The LED lights up only when electric current flows from the long leg through the bulb to the short leg.
 
 The resistor reduces the amount of electric current passing through the circuit. This protects the LED from breaking, as a high current will make the light shine more brightly and then stop working.
 
@@ -40,13 +40,13 @@ The resistor reduces the amount of electric current passing through the circuit.
 
 Now you have an antenna that lights up, and it is connected to your Raspberry Pi, you can write a program to tell the LED when you want it on.
 
-For this section you will need to use pin 11 rather than pin 1 to power your LED. Pin 11 is special as it can switch power on and off – if you tell it to!
+For this section you will need to use pin 11 rather than pin 1 to power your LED. Pin 11 is special as it can switch power on and off – if you tell it to! Follow the instructions below to learn how to switch pins.
 
-1.  Switch off the power to the Raspberry Pi. Move your jumper wire from pin 1 to pin 11. See the diagram below to make sure that your circuit is correct:
+1.  Shut down your Raspberry Pi and remove the power cable. Move your jumper wire that is connected to a resistor from pin 1 to pin 11. See the diagram below to make sure that your circuit is correct:
 
     ![](images/finished-circuit.png)
 
-2.  When prompted to login type:
+2.  Connect the power cable to the Raspberry Pi and when prompted to login type:
 
     ```
     Login: pi
