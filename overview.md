@@ -1,1 +1,1 @@
-In this resource you will make a robot that beeps and has a flashing antenna using a Raspberry Pi.
+In this resource you will make a robot which beeps and has a flashing antenna using a Raspberry Pi.
