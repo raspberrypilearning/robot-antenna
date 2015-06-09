@@ -1,6 +1,6 @@
 # Robot Antenna
 
-We are going to make a robot that beeps and has a flashing antenna using a Raspberry Pi.
+We are going to make a robot which beeps and has a flashing antenna using a Raspberry Pi.
 
 ## Making an antenna for your robot
 
