@@ -89,15 +89,15 @@ For this section you will need to use pin 11 rather than pin 1 to power your LED
 
 13. Drag a **wait 1 second** block onto the scripts area and connect it to the broadcast block.
 
-14. Test your program by clicking on the robot sprite. You should see the cardboard robot's antenna light shine and stay on.
+14. Test your program by clicking on the robot sprite. You should see the LED shine and stay on.
 
 15. Drag another **broadcast** block onto your scripts area and connect it to the wait 1 second block. Click on the drop down menu on the broadcast block and select **new**.
 
-    In the message name box type **pin11off** This will switch off the light on the cardboard robot's antenna.
+    In the message name box type **pin11off** This will switch off the LED.
 
 16. Now add another **wait 1 second** block to the script.
 
-17. Test your program again by clicking on the robot sprite. You should see the light on the cardboard robot's antenna come on for 1 second and turn off for one second.
+17. Test your program again by clicking on the robot sprite. You should see the LED turn on for one second and turn off for one second.
 
     ![](images/pin11off.png "Turn pin 11 off")
 
