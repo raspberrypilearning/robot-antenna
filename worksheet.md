@@ -46,7 +46,7 @@ For this section you will need to use pin 11 rather than pin 1 to power your LED
 
     ![](images/finished-circuit.png)
 
-2.  Connect the power cable to the Raspberry Pi and when prompted to login type:
+2.  Connect the power cable to the Raspberry Pi and, when prompted to log in, type:
 
     ```
     Login: pi
