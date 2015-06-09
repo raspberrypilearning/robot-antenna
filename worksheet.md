@@ -12,7 +12,7 @@ Let's get hands-on with electronics!  This is where the Raspberry Pi comes in ha
 
 3.  Add another jumper wire the other end of the resistor.
 
-4.  Make another jumper wire and slot one end onto the short leg of the LED. You should end up with something that looks like this:
+4.  Take another jumper wire and slot one end onto the short leg of the LED. You should end up with something that looks like this:
 
     ![](images/led-wired.png)
 
