@@ -38,11 +38,11 @@ The resistor reduces the amount of electric current passing through the circuit.
 
 ## Make the antenna flash
 
-Now you have an antenna that lights up, and it is connected to your Raspberry Pi, you can write a program to tell the LED when you want it on.
+Now you have an antenna that lights up, you can write a program to tell the LED when you want it on.
 
 For this section you will need to use pin 11 rather than pin 1 to power your LED. Pin 11 is special as it can switch power on and off – if you tell it to! Follow the instructions below to learn how to switch pins.
 
-1.  Shut down your Raspberry Pi and remove the power cable. Move your jumper wire that is connected to a resistor from pin 1 to pin 11. See the diagram below to make sure that your circuit is correct:
+1.  Shut your Raspberry Pi down and remove the power cable. Move your jumper wire that is connected to a resistor from pin 1 to pin 11. See the diagram below to make sure that your circuit is correct:
 
     ![](images/finished-circuit.png)
 
