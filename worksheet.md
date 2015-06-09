@@ -38,7 +38,7 @@ The resistor reduces the amount of electric current passing through the circuit.
 
 ## Make the antenna flash
 
-Now you have an antenna that lights up, you can write a program to tell the LED when you want it on.
+Now you have an antenna that lights up, you can write a program to tell the LED when you want it to be on.
 
 For this section you will need to use pin 11 rather than pin 1 to power your LED. Pin 11 is special as it can switch power on and off – if you tell it to! Follow the instructions below to learn how to switch pins.
 
