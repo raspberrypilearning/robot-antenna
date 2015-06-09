@@ -26,15 +26,15 @@ Let's get hands-on with electronics!  This is where the Raspberry Pi comes in ha
 
 7.  Plug in the micro USB power supply and you should see some text appear on your screen.
 
-**How the light antenna works:**
+###How the light antenna works
 
 Now you have a circuit and the LED should be on. If it is not, make sure that you have plugged the jumper wires into the correct pins by checking the diagram above. 
 
-Why does the LED shine?
+So, why does the LED shine?
 
-When the circuit is plugged into the Raspberry Pi GPIO pins, electricity flows through the circuit. The flow is called the current. The LED lights up only when electric current flows from the long leg through the bulb to the short leg.
+When the circuit is plugged into the Raspberry Pi GPIO pins, electricity can flow through it. This flow is called the current. The LED only lights up when electric current flows from the long leg through the bulb to the short leg.
 
-The resistor reduces the amount of electric current passing through the circuit. This protects the LED from breaking, as a high current will make the light shine more brightly and then stop working.
+The resistor reduces the amount of electric current passing through the circuit. This protects the LED from breaking, as a high current would make the light shine more brightly and then stop working.
 
 ## Make the antenna flash
 
@@ -129,10 +129,10 @@ You will make a cardboard robot and add your light antenna.
 
 9.  Give your Robot a name and welcome it to the world.
 
-**Congratulations your robot is complete!**
+**Congratulations! your robot is complete!**
 
 ## What next?
 
 -   Can you make the cardboard robot's antenna stay on for longer?
 -   Can you make the light flash more than once?
--   Record new sounds to play when your program plays.
+-   Try recording new sounds to play when your program plays.
