@@ -127,7 +127,7 @@ You will make a cardboard robot and add your light antenna.
 
 7.  Remove the plasticine.
 
-8.  Put your circuit of jumper wires, LED, resistor and paper clip inside your cardboard tube. Push your LED through the hole in the tube to make the robot's antenna.
+8.  Put your circuit of jumper wires, LED, and resistor inside your cardboard tube. Push your LED through the hole in the tube to make the robot's antenna.
 
 9.  Give your Robot a name and welcome it to the world.
 
