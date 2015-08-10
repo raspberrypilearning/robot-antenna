@@ -2,7 +2,7 @@
   img: led
   url: http://shop.pimoroni.com/products/led-5mm-pack-of-10
 - name: 1 x 330 ohm resistor
-  img: resistor
+  img: resistor-330r
   url: http://shop.pimoroni.com/products/resistor-grab-bag
 - name: 4 x Female-to-female jumper leads
   img: jumper-female-to-female
