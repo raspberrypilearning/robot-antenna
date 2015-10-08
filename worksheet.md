@@ -54,7 +54,7 @@ For this section you will need to use pin `17` rather than `3v3` to power your L
 
 1.  Click on **Edit** and **Start GPIO server** if it has not been started already.  
 
-    ![](images/Scratch-interface.png "The Scratch Interface")
+    ![](images/gpio-server.png)
 
 1.  Right-click on the Scratch cat and choose **delete** from the menu.
 
