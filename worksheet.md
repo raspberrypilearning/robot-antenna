@@ -84,7 +84,7 @@ For this section you will need to use pin `17` rather than `3v3` to power your L
 
     In the message name box type `gpio17on` This instruction will tell the Raspberry Pi to light the LED.
 
-    ![](images/pin17on.png "Sending a broadcast message to turn pin 11 on")
+    ![](images/pin11on.png "Sending a broadcast message to turn pin 17 on")
 
 1. Drag a `wait 1 second` block onto the scripts area and connect it to the broadcast block.
 
