@@ -18,7 +18,7 @@ Let's get hands-on with electronics!  This is where the Raspberry Pi comes in ha
 
 5.  Find pin 1 and pin 6 on your Raspberry Pi using the diagram below:
 
-    ![](images/gpio.png "The Raspberry Pi GPIO pins")
+    ![](images/gpio2.png "The Raspberry Pi GPIO pins")
 
     The general purpose input ouput (GPIO) pins on the Raspberry Pi speak and listen to the outside world and can be          controlled or programmed.  Each pin has a specific role. To make life easier the pins are numbered for reference.         Pin 1 is for power. Pin 6 is for grounding.
 
@@ -28,7 +28,7 @@ Let's get hands-on with electronics!  This is where the Raspberry Pi comes in ha
 
 ###How the light antenna works
 
-Now you have a circuit and the LED should be on. If it is not, make sure that you have plugged the jumper wires into the correct pins by checking the diagram above. 
+Now you have a circuit and the LED should be on. If it is not, make sure that you have plugged the jumper wires into the correct pins by checking the diagram above.
 
 So, why does the LED shine?
 
@@ -36,7 +36,7 @@ When the circuit is plugged into the Raspberry Pi GPIO pins, electricity can flo
 
 The resistor reduces the amount of electric current passing through the circuit. This protects the LED from breaking, as a high current would make the light shine more brightly and then stop working.
 
-Well done! You've made the antenna for your robot. Now we need to do some programming to control it. 
+Well done! You've made the antenna for your robot. Now we need to do some programming to control it.
 
 ## Make the antenna flash
 
@@ -46,7 +46,7 @@ For this section you will need to use pin 11 rather than pin 1 to power your LED
 
 1.  Shut your Raspberry Pi down and remove the power cable. Move your jumper wire that is connected to a resistor from pin 1 to pin 11. See the diagram below to make sure that your circuit is correct:
 
-    ![](images/finished-circuit.png)
+    ![](images/finished-circuit2.png)
 
 2.  Connect the power cable to the Raspberry Pi and, when prompted to log in, type:
 
