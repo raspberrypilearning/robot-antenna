@@ -65,6 +65,8 @@ For this section you will need to use pin `17` rather than `3v3` to power your L
 1. Click on **control**. Drag the `when green flag clicked` block onto the scripts area. Then connect a `broadcast` block underneath. Click on the drop down menu on the broadcast block and select **new**.
 
     In the message name box type `config17output` This instruction will tell the Raspberry Pi that pin 17 will be an output. This is because you are telling the pin to turn on an off an LED which is an output component. 
+    
+    ![](images/setup-blocks.png "Configure pin 17 to be an output")
 
 1. Drag the `when space key pressed` block onto the scripts area. Then click on **Sound** and drag the `play sound` block onto the scripts area and connect it to the control block.
 
