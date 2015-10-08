@@ -2,7 +2,7 @@
 
 We are going to make a robot which beeps and has a flashing antenna using a Raspberry Pi.
 
-## Making an antenna for your robot
+## Making an antenna for your robot with an LED
 
 Let's get hands-on with electronics!  This is where the Raspberry Pi comes in handy. You will program a small light called a LED (Light Emitting Diode) to flash. First you will need to make a circuit. Ensure that your Raspberry Pi is switched on and ready to go.
 
@@ -38,7 +38,7 @@ The resistor reduces the amount of electric current passing through the circuit.
 
 Well done! You've made the antenna for your robot. Now we need to do some programming to control it.
 
-## Make the antenna flash
+## Make the antenna flash with code
 
 Now you have an antenna that lights up, you can write a program to tell the LED when you want it to be on.
 
@@ -62,7 +62,11 @@ For this section you will need to use pin `17` rather than `3v3` to power your L
 
     ![](images/new_sprite.png "The Snew sprite from folder icon")
 
-1.  Click on **control** in the top left display. Drag the **when space key pressed** block onto the scripts area. Then click on **Sound** and drag the **play sound** block onto the scripts area and connect it to the control block.
+1. Click on **control**. Drag the `when green flag clicked` block onto the scripts area. Then connect a `broadcast` block underneath. Click on the drop down menu on the broadcast block and select **new**.
+
+    In the message name box type `config17output` This instruction will tell the Raspberry Pi that pin 17 will be an output. This is because you are telling the pin to turn on an off an LED which is an output component. 
+
+1. Drag the `when space key pressed` block onto the scripts area. Then click on **Sound** and drag the `play sound` block onto the scripts area and connect it to the control block.
 
     ![](images/play_sound.png "Connecting blocks in Scratch")
 
@@ -76,25 +80,25 @@ For this section you will need to use pin `17` rather than `3v3` to power your L
 
 1. Save your work so far by clicking on **File** and **Save As**. Name your file **Robot** and click **OK**.
 
-1. Click on the **control** in the blocks palette and drag a **broadcast** block to your scripts area and attach it to the play sound block. Click on the drop down menu on the broadcast block and select **new**.
+1. Click on the **control** in the blocks palette and drag a `broadcast` block to your scripts area and attach it to the play sound block. Click on the drop down menu on the broadcast block and select **new**.
 
-    In the message name box type **pin11on** This instruction will tell the Raspberry Pi to light the LED.
+    In the message name box type `gpio17on` This instruction will tell the Raspberry Pi to light the LED.
 
-    ![](images/pin11on.png "Sending a broadcast message to turn pin 11 on")
+    ![](images/pin17on.png "Sending a broadcast message to turn pin 11 on")
 
-1. Drag a **wait 1 second** block onto the scripts area and connect it to the broadcast block.
+1. Drag a `wait 1 second` block onto the scripts area and connect it to the broadcast block.
 
 1. Test your program by clicking on the robot sprite. You should see the LED shine and stay on.
 
-1. Drag another **broadcast** block onto your scripts area and connect it to the wait 1 second block. Click on the drop down menu on the broadcast block and select **new**.
+1. Drag another `broadcast` block onto your scripts area and connect it to the wait 1 second block. Click on the drop down menu on the broadcast block and select **new**.
 
-    In the message name box type **pin11off** This will switch off the LED.
+    In the message name box type `gpio17off` This will switch off the LED.
 
-1. Now add another **wait 1 second** block to the script.
+1. Now add another `wait 1 second` block to the script.
 
 1. Test your program again by clicking on the robot sprite. You should see the LED turn on for one second and turn off for one second.
 
-    ![](images/pin17-on-off.png "Turn pin 11 off")
+    ![](images/pin17-on-off.png "Turn pin 17 off")
 
 ## Make a cardboard robot
 
