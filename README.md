@@ -16,9 +16,11 @@ As well as a Raspberry Pi and the usual peripherals you'll also need:
 
 ### Software
 
-As well as an SD card loaded with Raspbian you'll need:
+As well as an SD card loaded with Raspbian Wheezy you'll need:
 
 - ScratchGPIO
+
+An SD card loaded with Raspbian Jessie will not require any additional software.
 
 ### Extras
 
