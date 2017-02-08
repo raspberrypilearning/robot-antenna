@@ -4,7 +4,7 @@ We are going to make a robot which beeps and has a flashing antenna using a Rasp
 
 ## Making an antenna for your robot with an LED
 
-Let's get hands-on with electronics!  This is where the Raspberry Pi comes in handy. You will program a small light called a LED (Light Emitting Diode) to flash. First you will need to make a circuit. 
+Let's get hands-on with electronics!  This is where the Raspberry Pi comes in handy. You will program a light-emitting diode (LED) to flash. First you will need to make a circuit. 
 
 1.  The LED has a short leg and a long leg. Slot a jumper wire onto the long leg.
 
@@ -16,13 +16,13 @@ Let's get hands-on with electronics!  This is where the Raspberry Pi comes in ha
 
     ![](images/led-wired.png)
 
-5.  Find the first `3v3` pin and a `GND` pin on your Raspberry Pi using the diagram below:
+5.  Find the first **3V3** pin and a **GND** pin on your Raspberry Pi using the diagram below:
 
     ![](images/gpio.png "The Raspberry Pi GPIO pins")
 
-    The general purpose input ouput (GPIO) pins on the Raspberry Pi speak and listen to the outside world and can be          controlled or programmed.  Each pin has a specific role. To make life easier the pins are numbered for reference. A `3v3` pin is for power and `GND` pin is for grounding.
+    The general purpose input ouput (GPIO) pins on the Raspberry Pi speak and listen to the outside world and can be          controlled or programmed.  Each pin has a specific role. To make life easier the pins are numbered for reference. A 3v3 pin is for power and GND pin is for grounding.
 
-6.  Plug the resistor jumper wire into the `3v3` pin on your Raspberry Pi and the other jumper wire into the `GND` pin.
+6.  Plug the resistor jumper wire into the 3V3 pin on your Raspberry Pi and the other jumper wire into the GND pin.
 
 7.  Plug in the micro USB power supply and you should see some text appear on your screen.
 
@@ -42,9 +42,9 @@ Well done! You've made the antenna for your robot. Now we need to do some progra
 
 Now you have an antenna that lights up, you can write a program to tell the LED when you want it to be on.
 
-For this section you will need to use pin `17` rather than `3v3` to power your LED. Pin 17 is special as it can switch power on and off – if you tell it to! Follow the instructions below to learn how to switch pins.
+For this section you will need to use pin **17** rather than 3V3 to power your LED. Pin 17 is special as it can switch power on and off – if you tell it to! Follow the instructions below to learn how to switch pins.
 
-1.  Shut your Raspberry Pi down and remove the power cable. Move your jumper wire that is connected to a resistor from `3v3` pin to the GPIO pin `17`. See the diagram below to make sure that your circuit is correct:
+1.  Shut your Raspberry Pi down and remove the power cable. Move your jumper wire that is connected to a resistor from 3V3 pin to the GPIO pin 17. See the diagram below to make sure that your circuit is correct:
 
     ![](images/finished-circuit.png)
 
@@ -110,7 +110,7 @@ You will make a cardboard robot and add your light antenna.
 
 2.  Colour in the robot picture and cut it out carefully.
 
-3.  Wrap the robot around the cardboard tube length ways.
+3.  Wrap the robot around the cardboard tube lengthways.
 
     ![](images/cardboard.png "Wrap the robot around the cardboard tube")
 
