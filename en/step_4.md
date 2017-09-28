@@ -1,36 +1,29 @@
-## Making an antenna for your robot with an LED
+## Connect your antenna
 
-Let's get hands-on with electronics!  This is where the Raspberry Pi comes in handy. You will program a light-emitting diode (LED) to flash. First you will need to make a circuit. 
+Now let's connect the antenna to the Raspberry Pi to make a **circuit**.
 
--  The LED has a short leg and a long leg. Slot a jumper wire onto the long leg.
++ Turn your Raspberry Pi so that it is facing the same way up as in the diagram below
 
-2.  Slot the resistor into the other end of the same jumper wire.
+![The GPIO pins](images/gpio.png)
 
-3.  Add another jumper wire the other end of the resistor.
++ Look at the pins which are sticking out of the top right of your Raspberry Pi. These pins let the Raspberry Pi communicate with the outside world.
 
-4.  Take another jumper wire and slot one end onto the short leg of the LED. You should end up with something that looks like this:
++ Take the jumper wire that is connected to the resistor and plug it onto the  pin labelled **3V3** on the diagram. This pin provides power to the LED, rather like connecting it to the positive side of a battery.
 
-    ![](images/led-wired.png)
++ Take the jumper wire that is connected to the short leg of the LED and plug it onto the pin labelled **GND** on the diagram. This pin provides grounding to the LED, rather like connecting it to the negative side of a battery.
 
-5.  Find the first **3V3** pin and a **GND** pin on your Raspberry Pi using the diagram below:
+When you have plugged in both wires, you have a circuit and your LED should be on. If it is not, make sure that you have plugged the jumper wires into the correct pins by checking the diagram above.
 
-    ![](images/gpio.png "The Raspberry Pi GPIO pins")
+**Why does the LED shine?**
 
-    The general purpose input ouput (GPIO) pins on the Raspberry Pi speak and listen to the outside world and can be          controlled or programmed.  Each pin has a specific role. To make life easier the pins are numbered for reference. A 3v3 pin is for power and GND pin is for grounding.
-
-6.  Plug the resistor jumper wire into the 3V3 pin on your Raspberry Pi and the other jumper wire into the GND pin.
-
-7.  Plug in the micro USB power supply and you should see some text appear on your screen.
-
-### How the light antenna works
-
-Now you have a circuit and the LED should be on. If it is not, make sure that you have plugged the jumper wires into the correct pins by checking the diagram above.
-
-So, why does the LED shine?
-
+--- collapse ---
+---
+title: Answer
+---
 When the circuit is plugged into the Raspberry Pi GPIO pins, electricity can flow through it. This flow is called the current. The LED only lights up when electric current flows from the long leg through the bulb to the short leg.
 
 The resistor reduces the amount of electric current passing through the circuit. This protects the LED from breaking, as a high current would make the light shine more brightly and then stop working.
 
-Well done! You've made the antenna for your robot. Now we need to do some programming to control it.
+--- /collapse ---
 
+Well done! You've made the antenna for your robot. Now let's add some programming so that we can control when it lights up.
