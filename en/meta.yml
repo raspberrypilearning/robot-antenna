@@ -3,14 +3,14 @@ title: Robot Antenna
 hero_image: images/banner.png
 description: Make your own robot with a blinking antenna
 original_url: https://raspberrypi.org/learning/robot-antenna
-theme: red
+theme: blue
 duration: 2
 listed: true
 ingredient: false
 copyedit: true
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-interests: ''
-technologies: rpi, physical computing, python
+interests: robots
+technologies: physical computing, scratch
 site_areas: ''
 steps:
 - title: Introduction
