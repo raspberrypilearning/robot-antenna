@@ -28,7 +28,7 @@ GPIO pin 17 is different to 3v3 as you can program it to switch the power on and
 
 ```blocks
 when [space v] key pressed
-play sound [v]
+play sound [ v]
 ```
 
 + Add a sound for your robot. We chose the computer beeps from the **electronic** section.
