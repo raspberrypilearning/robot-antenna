@@ -2,6 +2,8 @@
 
 Now let's connect the antenna to the Raspberry Pi to make a **circuit**.
 
++ Make sure your Raspberry Pi is switched off.
+
 + Turn your Raspberry Pi so that it is facing the same way up as in the diagram below
 
 ![The GPIO pins](images/gpio.png)
@@ -12,7 +14,9 @@ Now let's connect the antenna to the Raspberry Pi to make a **circuit**.
 
 + Take the jumper wire that is connected to the short leg of the LED and plug it onto the pin labelled **GND** on the diagram. This pin provides grounding to the LED, rather like connecting it to the negative side of a battery.
 
-When you have plugged in both wires, you have a circuit and your LED should be on. If it is not, make sure that you have plugged the jumper wires into the correct pins by checking the diagram above.
+When you have plugged in both wires, you have a circuit.
+
++ Power on your Raspberry Pi and your LED should switch on. If it is not, make sure that you have plugged the jumper wires into the correct pins by checking the diagram above.
 
 **Why does the LED shine?**
 
