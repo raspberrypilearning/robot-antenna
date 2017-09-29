@@ -26,5 +26,7 @@ sudo apt-get install scratch2
 ## Additional resources
 
 + Cardboard toilet roll
-+ Paper or card for decorating
-+ Pens, crayons and other robot decorating materials
++ One sheet of A4 paper
++ Pens, crayons and other decorating materials
++ Glue or tape
++ Small blob of modelling clay (e.g. plasticine) or blu-tack

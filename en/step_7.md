@@ -1,6 +1,5 @@
-## What next?
+## Challenge: beeps and flashes
 
--   Can you make the cardboard robot's antenna stay on for longer?
--   Can you make the light flash more than once?
--   Try recording new sounds to play when your program plays.
-
+-   Make the LED antenna stay on for longer
+-   Make the LED flash more than once
+-   Record your own sound for the robot to make - be creative!

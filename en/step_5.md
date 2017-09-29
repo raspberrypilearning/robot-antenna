@@ -56,4 +56,4 @@ This block allows you to specify a GPIO pin, and whether it is on (high) or off 
 
 + Now add another ```set gpio```{.blockmoreblocks} block, but this time ask it to set GPIO pin 17 to low.
 
-- Test your program by clicking on the robot sprite. You should see the LED blink on then off, and your robot should beep.
+- Test your program by pressing the space key. You should see the LED blink on then off, and your robot should beep.
