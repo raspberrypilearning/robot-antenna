@@ -4,7 +4,7 @@ In this resource you will build a cardboard robot with a real flashing LED anten
 ### What you will make
 Here is the robot we made:
 
-[Insert picture or video here]
+![Finished robot](images/finished-robot.png)
 
 ### What you will learn
 This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):

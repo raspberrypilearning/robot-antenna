@@ -27,6 +27,8 @@ sudo apt-get install scratch2
 
 + Cardboard toilet roll
 + One sheet of A4 paper
++ Sharp pencil
 + Pens, crayons and other decorating materials
 + Glue or tape
 + Small blob of modelling clay (e.g. plasticine) or blu-tack
++ Scissors
