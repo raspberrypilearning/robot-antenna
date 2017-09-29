@@ -8,7 +8,7 @@ Now you have an antenna that lights up, let's write a program to tell the LED wh
 
 ![Pin 17](images/finished-circuit.png)
 
-GPIO pin 17 is special as you can program it to switch the power on and off.
+GPIO pin 17 is different to 3v3 as you can program it to switch the power on and off.
 
 + Power on your Raspberry Pi and wait for it to boot.
 
@@ -27,9 +27,9 @@ GPIO pin 17 is special as you can program it to switch the power on and off.
 [[[generic-scratch-sprite-from-library]]]
 
 
-- Click on **Events**. Drag the `when space key pressed` block onto the scripts area.
+- Click on **Events**. Drag the ```when space key pressed```{.blockevents} block onto the scripts area.
 
-+ Click on **Sound** and drag the `play sound` block onto the scripts area and connect it to the previous block.
++ Click on **Sound** and drag the ```play sound```{.blocksound} block onto the scripts area and connect it to the previous block.
 
 ![When space](images/when-space.png)
 
