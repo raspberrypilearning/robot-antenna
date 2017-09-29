@@ -1,6 +1,6 @@
 ## Make a cardboard robot
 
-Let's make a cardboard robot and add your light antenna.
+Let's make a cardboard robot to display the antenna you've made.
 
 + On a sheet of A4 paper, draw or print your own robot design. It should be drawn portrait so it can be wrapped around your cardboard tube. Make sure it has an antenna!
 

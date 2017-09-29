@@ -29,5 +29,3 @@ When the circuit is plugged into the Raspberry Pi GPIO pins, electricity can flo
 The resistor reduces the amount of electric current passing through the circuit. This protects the LED from breaking, as a high current would make the light shine more brightly and then stop working.
 
 --- /collapse ---
-
-Well done! You've made the antenna for your robot. Now let's add some programming so that we can control when it lights up.

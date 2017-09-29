@@ -24,7 +24,7 @@ GPIO pin 17 is different to 3v3 as you can program it to switch the power on and
 
 - Click on **Events**. Drag the ```when space key pressed```{.blockevents} block onto the scripts area.
 
-+ Click on **Sound** and drag the ```play sound```{.blocksound} block onto the scripts area and connect it to the previous block.
++ Click on **Sound**, drag the ```play sound```{.blocksound} block onto the scripts area and connect it to the previous block.
 
 ![When space](images/when-space.png)
 
@@ -32,13 +32,13 @@ GPIO pin 17 is different to 3v3 as you can program it to switch the power on and
 
 [[[generic-scratch-sound-from-library]]]
 
--  Go back to the scripts tab. Click on the drop down box in your ```play sound```{.blocksound} block and select the sound you just imported.
+-  Go back to the scripts tab. Click on the drop down box in your ```play sound```{.blocksound} block and select the sound you just added.
 
 - Test that your program so far is working by pressing space key. Your robot should beep!
 
 - Save your work by clicking **File** then **Save project** and call it `robot.sb2`.
 
-Now let's program the LED to flash
+Now let's program the LED to flash.
 
 + Enable the Pi GPIO extension. This will give us some extra blocks to program the LED with.
 
@@ -48,7 +48,7 @@ Now let's program the LED to flash
 
 ![GPIO high](images/gpio-high.png)
 
-This block allows you to specify a GPIO pin, and whether it is on (high) or off (low).
+This block allows you to specify a GPIO pin, and whether it is on (output high) or off (output low).
 
 + Type `17` into the circle to specify GPIO pin 17, and leave the drop down on high. This block will turn your LED on.
 
@@ -56,4 +56,4 @@ This block allows you to specify a GPIO pin, and whether it is on (high) or off 
 
 + Now add another ```set gpio```{.blockmoreblocks} block, but this time ask it to set GPIO pin 17 to low.
 
-- Test your program by pressing the space key. You should see the LED blink on then off, and your robot should beep.
+- Test your program by pressing the space key. You should see the LED turn on for a second then turn off, and your robot should beep.

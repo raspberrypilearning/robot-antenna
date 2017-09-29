@@ -2,9 +2,9 @@
 In this resource you will build a cardboard robot with a real flashing LED antenna, as well as using Scratch to create a robot twin that beeps.
 
 ### What you will make
-Here is the robot we made:
+Here is an example of the robot we made:
 
-![Finished robot](images/finished-robot.png)
+![Finished robot](images/finished-robot.jpg)
 
 ### What you will learn
 This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
