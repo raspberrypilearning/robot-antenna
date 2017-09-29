@@ -16,4 +16,4 @@ Let's get hands-on with electronics! First you will need to connect your light-e
 
 You should end up with something that looks like this:
 
-    ![](images/led-wired.png)
+![Wired up LED](images/led-wired.png)
