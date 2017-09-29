@@ -16,16 +16,11 @@ GPIO pin 17 is different to 3v3 as you can program it to switch the power on and
 
 ![Open Scratch 2](images/open-scratch2.png)
 
-+ Enable the Pi GPIO extension
-
-[[[rpi-scratch-add-pi-gpio]]]
-
 + Right-click on the Scratch cat and choose **delete** from the menu.
 
 - Click on the button for a new sprite and choose a robot from the **fantasy** folder, or if you prefer you could draw your own robot.
 
 [[[generic-scratch-sprite-from-library]]]
-
 
 - Click on **Events**. Drag the ```when space key pressed```{.blockevents} block onto the scripts area.
 
@@ -37,24 +32,28 @@ GPIO pin 17 is different to 3v3 as you can program it to switch the power on and
 
 [[[generic-scratch-sound-from-library]]]
 
--  Go back to the scripts area. Click on the drop down box next to play sound and select the sound you just imported.
+-  Go back to the scripts tab. Click on the drop down box in your ```play sound```{.blocksound} block and select the sound you just imported.
 
 - Test that your program so far is working by pressing space key. Your robot should beep!
 
 - Save your work by clicking **File** then **Save project** and call it `robot.sb2`.
 
-Now let's make ...
+Now let's program the LED to flash
 
-- Drag a `wait 1 second` block onto the scripts area and connect it to the broadcast block.
++ Enable the Pi GPIO extension. This will give us some extra blocks to program the LED with.
 
-- Test your program by clicking on the robot sprite. You should see the LED shine and stay on.
+[[[rpi-scratch-add-pi-gpio]]]
 
-- Drag another `broadcast` block onto your scripts area and connect it to the wait 1 second block. Click on the drop down menu on the broadcast block and select **new**.
++ Select **More blocks** and then drag this block onto the bottom of your script
 
-    In the message name box type `gpio17off` This will switch off the LED.
+![GPIO high](images/gpio-high.png)
 
-- Now add another `wait 1 second` block to the script.
+This block allows you to specify a GPIO pin, and whether it is on (high) or off (low).
 
-- Test your program again by clicking on the robot sprite. You should see the LED turn on for one second and turn off for one second.
++ Type `17` into the circle to specify GPIO pin 17, and leave the drop down on high. This block will turn your LED on.
 
-    ![](images/pin17-on-off.png "Turn pin 17 off")
++ Add a ```wait 1 second```{.blockcontrol} block
+
++ Now add another ```set gpio```{.blockmoreblocks} block, but this time ask it to set GPIO pin 17 to low.
+
+- Test your program by clicking on the robot sprite. You should see the LED blink on then off, and your robot should beep.
