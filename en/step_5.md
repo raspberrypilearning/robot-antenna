@@ -22,22 +22,20 @@ GPIO pin 17 is different to 3v3 as you can program it to switch the power on and
 
 [[[generic-scratch-sprite-from-library]]]
 
-- Click on **Events**. Drag the `when [space v] key pressed`{:class="blockevents"}  block onto the scripts area.
+- Click on **Events**. Drag the `when space key pressed`{:class="blockevents"}  block onto the scripts area.
 
-+ Click on **Sound**, drag the `play sound [ v]`{:class="blocksound"}  block onto the scripts area and connect it to the previous block.
++ Click on **Sound**, drag the `play sound`{:class="blocksound"}  block onto the scripts area and connect it to the previous block.
 
 ```blocks
 when [space v] key pressed
 play sound [v]
 ```
 
-![When space](images/when-space.png)
-
 + Add a sound for your robot. We chose the computer beeps from the **electronic** section.
 
 [[[generic-scratch-sound-from-library]]]
 
--  Go back to the scripts tab. Click on the drop down box in your `play sound [ v]`{:class="blocksound"} block and select the sound you just added.
+-  Go back to the scripts tab. Click on the drop down box in your `play sound`{:class="blocksound"} block and select the sound you just added.
 
 - Test that your program so far is working by pressing space key. Your robot should beep!
 
@@ -59,8 +57,8 @@ This block allows you to specify a GPIO pin, and whether it is on (output high) 
 
 + Type `17` into the circle to specify GPIO pin 17, and leave the drop down on high. This block will turn your LED on.
 
-+ Add a `wait (1) secs`{:class="blockcontrol"} block
++ Add a `wait 1 secs`{:class="blockcontrol"} block
 
-+ Now add another `set gpio () to [output high v]`{:class="blockmoreblocks"} block, but this time ask it to set GPIO pin 17 to low.
++ Now add another `set gpio`{:class="blockmoreblocks"} block, but this time ask it to set GPIO pin 17 to low.
 
 - Test your program by pressing the space key. You should see the LED turn on for a second then turn off, and your robot should beep.
