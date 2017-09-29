@@ -23,7 +23,7 @@ sudo apt-get install scratch2
 **Note:** Scratch 2 will **only** work on the Raspberry Pi model 2 or 3, it will not work on earlier versions or the Raspberry Pi Zero.
 
 
-## Additional resources
+### Additional resources
 
 + Cardboard toilet roll
 + One sheet of A4 paper
