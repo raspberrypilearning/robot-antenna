@@ -61,4 +61,19 @@ This block allows you to specify a GPIO pin, and whether it is on (output high) 
 
 + Now add another `set gpio`{:class="blockmoreblocks"} block, but this time ask it to set GPIO pin 17 to low.
 
+--- hints ---
+--- hint ---
+Here is how your code should look:
+
+```blocks
+when [space v] key pressed
+play sound [computer beeps v]
+set gpio (17) to [output high v]
+wait 1 secs
+set gpio (17) to [output low v]
+```
+--- /hint ---
+--- /hint ---
+
+
 - Test your program by pressing the space key. You should see the LED turn on for a second then turn off, and your robot should beep.

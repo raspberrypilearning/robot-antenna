@@ -3,7 +3,7 @@
 ### Hardware
 
 * 1 x LED
-* 1 x 330 ohm resistor
+* 1 x resistor (any resistor above ~100 ohms will be fine)
 * 4 x Female-to-female jumper leads
 
 ### Software
