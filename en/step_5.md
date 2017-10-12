@@ -69,11 +69,11 @@ Here is how your code should look:
 when [space v] key pressed
 play sound [computer beeps v]
 set gpio (17) to [output high v]
-wait 1 secs
+wait (1) secs
 set gpio (17) to [output low v]
 ```
 --- /hint ---
---- /hint ---
+--- /hints ---
 
 
 - Test your program by pressing the space key. You should see the LED turn on for a second then turn off, and your robot should beep.
