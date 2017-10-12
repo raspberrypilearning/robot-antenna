@@ -68,9 +68,9 @@ Here is how your code should look:
 ```blocks
 when [space v] key pressed
 play sound [computer beeps v]
-set gpio (17) to [output high v]
+set gpio (17) to [output high v] :: extension
 wait (1) secs
-set gpio (17) to [output low v]
+set gpio (17) to [output low v] :: extension
 ```
 --- /hint ---
 --- /hints ---
