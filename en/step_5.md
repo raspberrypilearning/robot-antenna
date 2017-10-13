@@ -1,64 +1,79 @@
 ## Make the antenna flash with code
 
-Now you have an antenna that lights up, you can write a program to tell the LED when you want it to be on.
+Now you have an antenna that lights up, let's write a program to tell the LED when to turn on and off.
 
-For this section you will need to use pin **17** rather than 3V3 to power your LED. Pin 17 is special as it can switch power on and off – if you tell it to! Follow the instructions below to learn how to switch pins.
++  Shut your Raspberry Pi down and remove the power cable.
 
--  Shut your Raspberry Pi down and remove the power cable. Move your jumper wire that is connected to a resistor from 3V3 pin to the GPIO pin 17. See the diagram below to make sure that your circuit is correct:
++ Move the jumper wire that is connected to the resistor from the **3V3** pin to the pin which is labelled **17** in the diagram below:
 
-    ![](images/finished-circuit.png)
+![Pin 17](images/finished-circuit.png)
 
--  Connect the power cable to the Raspberry Pi and wait for it to boot.
+**Pin 17** is different to **3V3**: you can program it to switch the power on and off.
 
--  Open Scratch by clicking on **Menu** and **Programming**, followed by **Scratch**.
++ Power on your Raspberry Pi and wait for it to boot.
 
--  Click on **Edit** and **Start GPIO server** if it has not been started already.  
++ Open Scratch 2 by clicking on the menu and then **Programming**, followed by **Scratch 2**.
 
-    ![](images/gpio-server.png)
+![Open Scratch 2](images/open-scratch2.png)
 
--  Right-click on the Scratch cat and choose **delete** from the menu.
++ Right-click on the Scratch cat and choose **delete** from the menu.
 
-- Then click on the button for a new sprite and choose **robot3** from the **fantasy** folder.
+- Click on the button for a new sprite and choose a robot from the **fantasy** folder, or, if you prefer, you can draw your own robot.
 
-    ![](images/new_sprite.png "The Snew sprite from folder icon")
+[[[generic-scratch-sprite-from-library]]]
 
-- Click on **control**. Drag the `when green flag clicked` block onto the scripts area. Then connect a `broadcast` block underneath. Click on the drop down menu on the broadcast block and select **new**.
+- Click on **Events**. Drag the `when space key pressed`{:class="blockevents"} block into the Scripts area.
 
-    In the message name box type `config17output` This instruction will tell the Raspberry Pi that pin 17 will be an output. This is because you are telling the pin to turn on an off an LED which is an output component. 
-    
-    ![](images/setup-blocks.png "Configure pin 17 to be an output")
++ Click on **Sound**, drag the `play sound`{:class="blocksound"} block into the Scripts area and connect it to the previous block.
 
-- Drag the `when space key pressed` block onto the scripts area. Then click on **Sound** and drag the `play sound` block onto the scripts area and connect it to the control block.
+```blocks
+when [space v] key pressed
+play sound [ v]
+```
 
-    ![](images/play_sound.png "Connecting blocks in Scratch")
++ Add a sound for your robot. We chose the computer beeps from the **electronic** section.
 
--  Click on the **Sounds** tab above the scripts area and then click on **Import**. Choose **Electronic** and then **ComputerBeeps2**. This will add it to the sounds tab.
+[[[generic-scratch-sound-from-library]]]
 
--  Now go back to the scripts area by clicking on the scripts tab. Click on the drop down box next to play sound. Choose the sound you just imported from the menu.
+-  Go back to the Scripts tab. Click on the drop-down box in your `play sound`{:class="blocksound"} block and select the sound you just added.
 
-    ![](images/play_sound_beep.png "Play Sound block with a sound")
+- Test that your program is working so far by pressing the **space** key. In response, your robot should beep!
 
-- Test that your program so far is working, by pressing space key. It should beep!
+- Save your work by clicking **File**, then **Save project**, and call it `robot.sb2`.
 
-- Save your work so far by clicking on **File** and **Save As**. Name your file **Robot** and click **OK**.
+Now let's program the LED to flash.
 
-- Click on the **control** in the blocks palette and drag a `broadcast` block to your scripts area and attach it to the play sound block. Click on the drop down menu on the broadcast block and select **new**.
++ Enable the Pi GPIO extension. This will give you some extra blocks for programming the LED.
 
-    In the message name box type `gpio17on` This instruction will tell the Raspberry Pi to light the LED.
+[[[rpi-scratch-add-pi-gpio]]]
 
-    ![](images/pin11on.png "Sending a broadcast message to turn pin 17 on")
++ Select **More blocks** and then drag this block to the bottom of your script:
 
-- Drag a `wait 1 second` block onto the scripts area and connect it to the broadcast block.
+```blocks
+set gpio () to [output high v] :: extension
+```
 
-- Test your program by clicking on the robot sprite. You should see the LED shine and stay on.
+This block allows you to specify a GPIO pin, and whether it is on `[output high]` or off `[output low]`.
 
-- Drag another `broadcast` block onto your scripts area and connect it to the wait 1 second block. Click on the drop down menu on the broadcast block and select **new**.
++ Type `17` into the circle to specify pin 17, and leave the drop-down on `high`. This block will turn your LED on.
 
-    In the message name box type `gpio17off` This will switch off the LED.
++ Add a `wait 1 secs`{:class="blockcontrol"} block.
 
-- Now add another `wait 1 second` block to the script.
++ Now add another `set gpio` block, but this time ask it to set GPIO pin 17 to `low`.
 
-- Test your program again by clicking on the robot sprite. You should see the LED turn on for one second and turn off for one second.
+--- hints ---
+--- hint ---
+Here is how your code should look:
 
-    ![](images/pin17-on-off.png "Turn pin 17 off")
+```blocks
+when [space v] key pressed
+play sound [computer beeps v]
+set gpio (17) to [output high v] :: extension
+wait (1) secs
+set gpio (17) to [output low v] :: extension
+```
+--- /hint ---
+--- /hints ---
 
+
+- Test your program by pressing the **space** key. You should see the LED turn on for a second and then turn off, and your robot should beep.

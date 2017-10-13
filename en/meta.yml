@@ -1,5 +1,4 @@
----
-title: Robot Antenna
+title: Robot antenna
 hero_image: images/banner.png
 description: Make your own robot with a blinking antenna
 original_url: https://raspberrypi.org/learning/robot-antenna
@@ -15,9 +14,8 @@ site_areas: ''
 steps:
 - title: Introduction
 - title: What you will need
-- title: Robot Antenna
-- title: Making an antenna for your robot with an LED
+- title: Make an antenna
+- title: Connect your antenna
 - title: Make the antenna flash with code
 - title: Make a cardboard robot
-- title: What next?
-
+- title: "Challenge: beeps and flashes"
