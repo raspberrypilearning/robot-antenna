@@ -1,8 +1,8 @@
 ## Make an antenna
 
-Let's get hands-on with electronics! First you will need to connect your light-emitting diode (LED) to some jumper wires and a resistor.
+Let's get hands-on with electronics! Your first step will be to connect your **l**ight-**e**mitting **d**iode (LED) to some jumper wires and a resistor.
 
-+ First, look at your LED. The LED has a short leg and a long leg.
++ First, look at your LED. It has a short leg and a long leg.
 
 ![LED](images/led.png)
 
