@@ -1,5 +1,5 @@
 ## Introduction
-In this resource you will build a cardboard robot with a real flashing LED antenna, as well as using Scratch to create a robot twin that beeps.
+In this resource you will build a cardboard robot with a real flashing LED antenna, and use Scratch to create a robot twin that beeps.
 
 ### What you will make
 Here is an example of the robot we made:
