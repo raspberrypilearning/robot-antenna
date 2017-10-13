@@ -2,7 +2,7 @@
 
 Let's make a cardboard robot to display the antenna you've made.
 
-+ On a sheet of A4 paper, draw or print your own robot design. It should be drawn portrait so it can be wrapped around your cardboard tube. Make sure it has an antenna!
++ On a sheet of A4 paper, draw or print your own robot design. Its feet and head should point towards the short sides of the sheet of paper. Make sure it also has an antenna!
 
 +  Colour in the robot picture and cut it out carefully.
 
@@ -24,4 +24,4 @@ Let's make a cardboard robot to display the antenna you've made.
 
 +  Put your circuit of jumper wires, LED, and resistor inside your cardboard tube. Push your LED through the hole in the tube to make the robot's antenna.
 
-+  Give your robot a name and welcome it to the world.
++  Give your robot a name and welcome it to the world!
