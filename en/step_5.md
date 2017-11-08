@@ -4,6 +4,8 @@ Now you have an antenna that lights up, let's write a program to tell the LED wh
 
 +  Shut your Raspberry Pi down and remove the power cable.
 
+![Shut down](images/shut-down.png)
+
 + Move the jumper wire that is connected to the resistor from the **3V3** pin to the pin which is labelled **17** in the diagram below:
 
 ![Pin 17](images/finished-circuit.png)
@@ -57,7 +59,7 @@ This block allows you to specify a GPIO pin, and whether it is on `[output high]
 
 + Type `17` into the circle to specify pin 17, and leave the drop-down on `high`. This block will turn your LED on.
 
-+ Add a `wait 1 secs`{:class="blockcontrol"} block.
++ Add a block to `wait 2 secs`{:class="blockcontrol"} from the control tab.
 
 + Now add another `set gpio` block, but this time ask it to set GPIO pin 17 to `low`.
 

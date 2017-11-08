@@ -2,7 +2,7 @@
 
 Let's make a cardboard robot to display the antenna you've made.
 
-+ On a sheet of A4 paper, draw or print your own robot design. Its feet and head should point towards the short sides of the sheet of paper. Make sure it also has an antenna!
++ On a sheet of A4 paper, draw or print your own robot design. It doesn't have to be a person robot — maybe it could be a car or an animal! Just make sure it has an antenna.
 
 +  Colour in the robot picture and cut it out carefully.
 

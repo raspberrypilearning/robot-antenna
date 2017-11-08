@@ -2,9 +2,11 @@
 
 ### Hardware
 
+* A Raspberry Pi and associated peripherals
 * 1× LED
 * 1× resistor (any resistor above 100 ohms will be fine)
 * 4× female-to-female jumper lead
+* A mini speaker or headphones
 
 ### Software
 
