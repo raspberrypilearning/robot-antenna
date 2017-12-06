@@ -1,6 +1,6 @@
 title: Robot antenna
 hero_image: images/banner.png
-description: Make your own robot with a blinking antenna
+description: Control a robot's antenna light with a Raspberry Pi and code blocks
 original_url: https://raspberrypi.org/learning/robot-antenna
 theme: blue
 duration: 2
