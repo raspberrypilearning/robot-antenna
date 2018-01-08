@@ -59,7 +59,7 @@ This block allows you to specify a GPIO pin, and whether it is on `[output high]
 
 + Type `17` into the circle to specify pin 17, and leave the drop-down on `high`. This block will turn your LED on.
 
-+ Add a block to `wait 2 secs`{:class="blockcontrol"} from the control tab.
++ Add a block to `wait 1 secs`{:class="blockcontrol"} from the control tab.
 
 + Now add another `set gpio` block, but this time ask it to set GPIO pin 17 to `low`.
 
