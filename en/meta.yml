@@ -7,11 +7,15 @@ duration: 2
 listed: true
 ingredient: false
 copyedit: true
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-interests: robots
-technologies: physical computing, scratch
-site_areas: ''
-steps:
+curriculum: 1, design-1, programming-1, phys-comp-1, manufacture-1, community-0
+interests: ''
+technologies: electronic-components, scratch
+site_areas: projects
+hardware: electronic-components
+software: scratch
+version: 4
+last_tested: 2017-11-01
+steps: 
 - title: Introduction
 - title: What you will need
 - title: Make an antenna
