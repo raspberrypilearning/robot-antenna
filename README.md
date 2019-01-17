@@ -1,6 +1,6 @@
 # Robot Antenna
 
-![](cover.png)
+![](en/banner.png)
 
 We are going to make a robot that beeps and has a flashing antenna using a Raspberry Pi.
 
