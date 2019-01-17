@@ -61,7 +61,7 @@ This block allows you to specify a GPIO pin, and whether it is on `[output high]
 
 + Add a block to `wait 1 secs`{:class="blockcontrol"} from the control tab.
 
-+ Now add another `set gpio`{:class="blockmoreblocks"} block, but this time ask it to set GPIO pin 17 to `low`.
++ Now add another `set gpio`{:class="blockextensions"} block, but this time ask it to set GPIO pin 17 to `low`.
 
 --- hints ---
 --- hint ---
