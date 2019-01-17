@@ -52,16 +52,16 @@ Now let's program the LED to flash.
 + Select **More blocks** and then drag this block to the bottom of your script:
 
 ```blocks
-set gpio () to [output high v] :: extension
+set gpio [ v] to [output high v] :: extension
 ```
 
 This block allows you to specify a GPIO pin, and whether it is on `[output high]` or off `[output low]`.
 
-+ Type `17` into the circle to specify pin 17, and leave the drop-down on `high`. This block will turn your LED on.
++ Select `17` from the gpio dropdown to specify pin 17, and leave the next drop-down on `high`. This block will turn your LED on.
 
 + Add a block to `wait 1 secs`{:class="blockcontrol"} from the control tab.
 
-+ Now add another `set gpio` block, but this time ask it to set GPIO pin 17 to `low`.
++ Now add another `set gpio`{:class="blockmoreblocks"} block, but this time ask it to set GPIO pin 17 to `low`.
 
 --- hints ---
 --- hint ---
@@ -70,9 +70,9 @@ Here is how your code should look:
 ```blocks
 when [space v] key pressed
 play sound [computer beeps v]
-set gpio (17) to [output high v] :: extension
+set gpio [17 v] to [output high v] :: extension
 wait (1) secs
-set gpio (17) to [output low v] :: extension
+set gpio [17 v] to [output low v] :: extension
 ```
 --- /hint ---
 --- /hints ---
