@@ -38,6 +38,8 @@ Open Scratch 2 by clicking on the menu and then **Programming**, followed by **S
 
 Remove the Scratch cat by right-clicking on it and choosing **delete** from the menu.
 
+![scratch cat sprite with delete selected in the pop up menu ](images/delete-sprite.png)
+
 --- /task ---
 
 --- task ---
@@ -88,9 +90,17 @@ when [space v] key pressed
 
 --- /task ---
 
+--- task ---
+
 Test that your program is working so far by pressing the **space** key. In response, your robot should beep!
 
+--- /task ---
+
+--- task ---
+
 Save your work by clicking **File**, then **Save project**, and call it `robot.sb2`.
+
+--- /task ---
 
 Now let's program the LED to flash.
 
@@ -110,7 +120,7 @@ Select **More blocks** and then drag this block to the bottom of your script:
 set gpio [ v] to [output high v] :: extension
 ```
 
-This block allows you to specify a GPIO pin, and whether it is on `[output high]` or off `[output low]`.
+This block allows you to specify a GPIO pin, and whether it is on (`output high`) or off (`output low`).
 
 --- /task ---
 
@@ -153,5 +163,8 @@ wait (1) secs
 
 --- /task ---
 
+--- task ---
 
 Test your program by pressing the **space** key. You should see the LED turn on for a second and then turn off, and your robot should beep.
+
+--- /task ---

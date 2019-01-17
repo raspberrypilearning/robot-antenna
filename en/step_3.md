@@ -12,9 +12,9 @@ Turn your Raspberry Pi so that it is facing the same way as the one in the diagr
 
 --- /task ---
 
---- task ---
-
 Look at the pins which are sticking out of the top right of your Raspberry Pi. These pins let the Raspberry Pi communicate with the outside world.
+
+--- task ---
 
 Take the jumper wire that is connected to the resistor and plug it onto the pin labelled **3V3** on the diagram. This pin provides power to the LED, so it's rather like connecting the LED to the positive side of a battery.
 
