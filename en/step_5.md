@@ -1,81 +1,63 @@
-## Make the antenna flash with code
+## Make a cardboard robot
 
-Now you have an antenna that lights up, let's write a program to tell the LED when to turn on and off.
+Let's make a cardboard robot to display the antenna you've made.
 
-+  Shut your Raspberry Pi down and remove the power cable.
+--- task ---
 
-![Shut down](images/shut-down.png)
+On a sheet of A4 paper, draw or print your own robot design. It doesn't have to be a person robot — maybe it could be a car or an animal! Just make sure it has an antenna.
 
-+ Move the jumper wire that is connected to the resistor from the **3V3** pin to the pin which is labelled **17** in the diagram below:
+--- /task ---
 
-![Pin 17](images/finished-circuit.png)
+--- task ---
 
-**Pin 17** is different to **3V3**: you can program it to switch the power on and off.
+Colour in the robot picture and cut it out carefully.
 
-+ Power on your Raspberry Pi and wait for it to boot.
+--- /task ---
 
-+ Open Scratch 2 by clicking on the menu and then **Programming**, followed by **Scratch 2**.
+--- task ---
 
-![Open Scratch 2](images/open-scratch2.png)
+Wrap the robot around the cardboard tube lengthways.
 
-+ Right-click on the Scratch cat and choose **delete** from the menu.
+![](images/cardboard.png "Wrap the robot around the cardboard tube")
 
-- Click on the button for a new sprite and choose a robot from the **fantasy** folder, or, if you prefer, you can draw your own robot.
+--- /task ---
 
-[[[generic-scratch-sprite-from-library]]]
+--- task ---
 
-- Click on **Events**. Drag the `when space key pressed`{:class="blockevents"} block into the Scripts area.
+Glue or tape the robot in place.
 
-+ Click on **Sound**, drag the `play sound`{:class="blocksound"} block into the Scripts area and connect it to the previous block.
+--- /task ---
 
-```blocks
-when [space v] key pressed
-play sound [ v]
-```
+--- task ---
 
-+ Add a sound for your robot. We chose the computer beeps from the **electronic** section.
+Stick some modelling clay behind the robot's antenna inside the cardboard tube.
 
-[[[generic-scratch-sound-from-library]]]
+![](images/cardboard2.png)
 
--  Go back to the Scripts tab. Click on the drop-down box in your `play sound`{:class="blocksound"} block and select the sound you just added.
+--- /task ---
 
-- Test that your program is working so far by pressing the **space** key. In response, your robot should beep!
+--- task ---
 
-- Save your work by clicking **File**, then **Save project**, and call it `robot.sb2`.
+Push a pencil into the antenna to make a hole through the cardboard tube.
 
-Now let's program the LED to flash.
+![](images/cardboard3.png "Make a hole in the cardboard for the LED antenna")
 
-+ Enable the Pi GPIO extension. This will give you some extra blocks for programming the LED.
+--- /task ---
 
-[[[rpi-scratch-add-pi-gpio]]]
+--- task ---
 
-+ Select **More blocks** and then drag this block to the bottom of your script:
+Remove the modelling clay.
 
-```blocks
-set gpio () to [output high v] :: extension
-```
+--- /task ---
 
-This block allows you to specify a GPIO pin, and whether it is on `[output high]` or off `[output low]`.
+--- task ---
 
-+ Type `17` into the circle to specify pin 17, and leave the drop-down on `high`. This block will turn your LED on.
+Put your circuit of jumper wires, LED, and resistor inside your cardboard tube. Push your LED through the hole in the tube to make the robot's antenna.
 
-+ Add a block to `wait 1 secs`{:class="blockcontrol"} from the control tab.
+--- /task ---
 
-+ Now add another `set gpio` block, but this time ask it to set GPIO pin 17 to `low`.
+--- task ---
 
---- hints ---
---- hint ---
-Here is how your code should look:
+Give your robot a name and welcome it to the world!
 
-```blocks
-when [space v] key pressed
-play sound [computer beeps v]
-set gpio (17) to [output high v] :: extension
-wait (1) secs
-set gpio (17) to [output low v] :: extension
-```
---- /hint ---
---- /hints ---
-
-
-- Test your program by pressing the **space** key. You should see the LED turn on for a second and then turn off, and your robot should beep.
+--- /task ---

@@ -1,36 +1,35 @@
-## What you will need
+## Make an antenna
 
-### Hardware
+Let's get hands-on with electronics! Your first step will be to connect your **l**ight-**e**mitting **d**iode (LED) to some jumper wires and a resistor.
 
-* A Raspberry Pi and associated peripherals
-* 1× LED
-* 1× resistor (any resistor above 100 ohms will be fine)
-* 4× female-to-female jumper lead
-* A mini speaker or headphones
+First, look at your LED. It has a short leg and a long leg.
 
-### Software
+![LED](images/led.png)
 
-You will need the latest version of Raspbian, which already includes the following software packages:
+--- task ---
 
-+ Scratch 2 with GPIO support
+Slot a jumper wire onto the end of the long leg.
 
-If you are using an older version of Raspbian, open a terminal window and type the following commands to install Scratch 2:
+--- /task ---
 
-```bash
-sudo apt-get update
-sudo apt-get dist-upgrade
-sudo apt-get install scratch2
-```
+--- task ---
 
-**Note:** Scratch 2 will **only** work on the Raspberry Pi 2 and 3; it will not work on earlier models or on the Raspberry Pi Zero.
+Slot the resistor into the other end of the same jumper wire. It doesn't matter which way round it goes.
 
+--- /task ---
 
-### Additional resources
+--- task ---
 
-+ Cardboard toilet roll
-+ One sheet of A4 paper
-+ Sharp pencil
-+ Pens, crayons, and other decorating materials
-+ Glue or tape
-+ Small blob of modelling clay (e.g. plasticine or Blu Tack)
-+ Scissors
+Add another jumper wire to the other end of the resistor.
+
+--- /task ---
+
+--- task ---
+
+Take another jumper wire and slot one end onto the short leg of the LED.
+
+--- /task ---
+
+You should end up with something that looks like this:
+
+![Wired up LED](images/led-wired.png)
