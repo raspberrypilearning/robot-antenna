@@ -30,7 +30,7 @@ Power on your Raspberry Pi and wait for it to boot.
 
 Open Scratch 2 by clicking on the menu and then **Programming**, followed by **Scratch 2**.
 
-![Open Scratch 2](images/open-scratch2.png)
+![Open Scratch 2](images/open-scratch.png)
 
 --- /task ---
 
@@ -54,7 +54,7 @@ Click on the button for a new sprite and choose a robot from the **fantasy** fol
 
 Click on **Events**. Drag the `when space key pressed`{:class="blockevents"} block into the Scripts area.
 
-```blocks
+```blocks3
 when [space v] key pressed
 ```
 
@@ -64,7 +64,7 @@ when [space v] key pressed
 
 Click on **Sound**, drag the `play sound`{:class="blocksound"} block into the Scripts area and connect it to the previous block.
 
-```blocks
+```blocks3
 when [space v] key pressed
 + play sound [ v]
 ```
@@ -83,7 +83,7 @@ Add a sound for your robot. We chose the computer beeps from the **electronic** 
 
 Go back to the Scripts tab. Click on the drop-down box in your `play sound`{:class="blocksound"} block and select the sound you just added.
 
-```blocks
+```blocks3
 when [space v] key pressed
 + play sound [computer beeps v]
 ```
@@ -98,40 +98,40 @@ Test that your program is working so far by pressing the **space** key. In respo
 
 --- task ---
 
-Save your work by clicking **File**, then **Save project**, and call it `robot.sb2`.
+Save your work by clicking **File**, then **Save project**, and call it `robot.sb3`.
 
 --- /task ---
 
 Now let's program the LED to flash.
 
 --- task ---
+Next add the *Raspberry Pi Simple Electronics* extension.
 
-Enable the Pi GPIO extension. This will give you some extra blocks for programming the LED.
-
-[[[rpi-scratch-add-pi-gpio]]]
-
+![add-extension](images/add-extension.png)
+![simple-electronics](images/simple-electronics.png)
 --- /task ---
+
 
 --- task ---
 
 Select **More blocks** and then drag this block to the bottom of your script:
 
-```blocks
-set gpio [ v] to [output high v] :: extension
+```blocks3
+turn LED (0 v) [on v] :: extension
 ```
 
-This block allows you to specify a GPIO pin, and whether it is on (`output high`) or off (`output low`).
+This block allows you to specify a GPIO pin that your LED is wired to.
 
 --- /task ---
 
 --- task ---
 
-Select `17` from the gpio dropdown to specify pin 17, and leave the next drop-down on `high`. This block will turn your LED on.
+Select `17` from the dropdown to specify pin 17, and leave the next drop-down as `on`. This block will turn your LED on.
 
 ```blocks
 when [space v] key pressed
 play sound [computer beeps v]
-+ set gpio [17 v] to [output high v] :: extension
++ turn LED (0 v) [on v] :: extension
 ```
 
 --- /task ---
@@ -143,7 +143,7 @@ Add a block to `wait 1 secs`{:class="blockcontrol"} from the control tab.
 ```blocks
 when [space v] key pressed
 play sound [computer beeps v]
-set gpio [17 v] to [output high v] :: extension
+turn LED (0 v) [on v] :: extension
 + wait (1) secs
 ```
 
@@ -151,14 +151,15 @@ set gpio [17 v] to [output high v] :: extension
 
 --- task ---
 
-Now add another `set gpio` block, but this time ask it to set GPIO pin 17 to `low`.
+Now add another LED block, but this time ask it to set it to `off`.
 
 ```blocks
 when [space v] key pressed
 play sound [computer beeps v]
-set gpio [17 v] to [output high v] :: extension
+turn LED (0 v) [on v] :: extension
 wait (1) secs
-+ set gpio [17 v] to [output low v] :: extension
++ turn LED (0 v) [off v] :: extension
+
 ```
 
 --- /task ---
