@@ -52,7 +52,7 @@ Click on the button for a new sprite and choose a robot from the **fantasy** fol
 
 --- task ---
 
-Click on **Events**. Drag the `when space key pressed`{:class="blockevents"} block into the Scripts area.
+Click on **Events**. Drag the `when space key pressed`{:class="block3events"} block into the Scripts area.
 
 ```blocks3
 when [space v] key pressed
@@ -62,7 +62,7 @@ when [space v] key pressed
 
 --- task ---
 
-Click on **Sound**, drag the `play sound`{:class="blocksound"} block into the Scripts area and connect it to the previous block.
+Click on **Sound**, drag the `play sound`{:class="block3sound"} block into the Scripts area and connect it to the previous block.
 
 ```blocks3
 when [space v] key pressed
@@ -128,7 +128,7 @@ This block allows you to specify a GPIO pin that your LED is wired to.
 
 Select `17` from the dropdown to specify pin 17, and leave the next drop-down as `on`. This block will turn your LED on.
 
-```blocks
+```blocks3
 when [space v] key pressed
 play sound [computer beeps v]
 + turn LED (0 v) [on v] :: extension
@@ -138,9 +138,9 @@ play sound [computer beeps v]
 
 --- task ---
 
-Add a block to `wait 1 secs`{:class="blockcontrol"} from the control tab.
+Add a block to `wait 1 secs`{:class="block3control"} from the control tab.
 
-```blocks
+```blocks3
 when [space v] key pressed
 play sound [computer beeps v]
 turn LED (0 v) [on v] :: extension
@@ -153,7 +153,7 @@ turn LED (0 v) [on v] :: extension
 
 Now add another LED block, but this time ask it to set it to `off`.
 
-```blocks
+```blocks3
 when [space v] key pressed
 play sound [computer beeps v]
 turn LED (0 v) [on v] :: extension
