@@ -131,7 +131,7 @@ Select `17` from the dropdown to specify pin 17, and leave the next drop-down as
 ```blocks3
 when [space v] key pressed
 play sound [computer beeps v]
-+ turn LED (0 v) [on v] :: extension
++ turn LED (17 v) [on v] :: extension
 ```
 
 --- /task ---
@@ -143,7 +143,7 @@ Add a block to `wait 1 secs`{:class="block3control"} from the control tab.
 ```blocks3
 when [space v] key pressed
 play sound [computer beeps v]
-turn LED (0 v) [on v] :: extension
+turn LED (17 v) [on v] :: extension
 + wait (1) secs
 ```
 
@@ -156,9 +156,9 @@ Now add another LED block, but this time ask it to set it to `off`.
 ```blocks3
 when [space v] key pressed
 play sound [computer beeps v]
-turn LED (0 v) [on v] :: extension
+turn LED (17 v) [on v] :: extension
 wait (1) secs
-+ turn LED (0 v) [off v] :: extension
++ turn LED (17 v) [off v] :: extension
 
 ```
 
