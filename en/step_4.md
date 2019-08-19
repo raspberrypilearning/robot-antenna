@@ -28,9 +28,9 @@ Power on your Raspberry Pi and wait for it to boot.
 
 --- task ---
 
-Open Scratch 2 by clicking on the menu and then **Programming**, followed by **Scratch 2**.
+Open Scratch 3 by clicking on the menu and then **Programming**, followed by **Scratch 3**.
 
-![Open Scratch 2](images/open-scratch.png)
+![Open Scratch 3](images/open-scratch.png)
 
 --- /task ---
 
@@ -44,7 +44,7 @@ Remove the Scratch cat by right-clicking on it and choosing **delete** from the 
 
 --- task ---
 
-Click on the button for a new sprite and choose a robot from the **fantasy** folder, or, if you prefer, you can draw your own robot.
+Click on the button for a new sprite and search for a robot, or, if you prefer, you can draw your own.
 
 [[[generic-scratch-sprite-from-library]]]
 
@@ -85,7 +85,7 @@ Go back to the Scripts tab. Click on the drop-down box in your `play sound`{:cla
 
 ```blocks3
 when [space v] key pressed
-+ play sound [computer beeps v]
++ play sound [computer beeps1 v]
 ```
 
 --- /task ---
