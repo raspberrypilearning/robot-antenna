@@ -1,3 +1,5 @@
+This is the Scratch 3 version of this project. You can find the [Scratch 2 version here.](https://projects.raspberrypi.org/en/projects/robot-antenna-scratch2)
+
 ## Introduction
 In this resource you will build a cardboard robot with a real flashing LED antenna, and use Scratch to create a robot twin that beeps.
 
@@ -13,7 +15,7 @@ title: What you will need
 
 #### Hardware
 
-* A Raspberry Pi and associated peripherals
+* A Raspberry Pi 4 and associated peripherals
 * 1× LED
 * 1× resistor (any resistor above 100 ohms will be fine)
 * 4× female-to-female jumper lead
@@ -23,7 +25,7 @@ title: What you will need
 
 You will need the latest version of Raspbian, which already includes Scratch 2.
 
-**Note:** Scratch 2 will **only** work on the Raspberry Pi 2 and 3; it will not work on earlier models or on the Raspberry Pi Zero.
+**Note:** Scratch 3 will **only** work on the Raspberry Pi 4,
 
 ### Additional craft materials
 
@@ -42,12 +44,8 @@ You will need the latest version of Raspbian, which already includes Scratch 2.
 title: What you will learn
 ---
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
-
-- [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator)
-- [Use basic programming constructs to create simple programs](https://www.raspberrypi.org/curriculum/programming/creator)
-- [Use basic digital, analogue, and electromechanical components](https://www.raspberrypi.org/curriculum/physical-computing/creator)
-- [Use basic materials and tools to create project prototypes](https://www.raspberrypi.org/curriculum/manufacture/creator)
+- How to connect an LED to a Raspberry Pi.
+- How to control an LED with Scratch 3
 
 --- /collapse ---
 
