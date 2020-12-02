@@ -60,6 +60,6 @@ If you need to print this project, please use the [printer-friendly version](htt
 
 --- /no-print ---
 
-You can download the completed project at [rpf.io/p/en/robot-antenna-get](http://rpf.io/p/en/robot-antenna-get).
+You can download the completed project at [rpf.io/p/en/robot-antenna-get](https://rpf.io/p/en/robot-antenna-get).
 
 --- /collapse ---
