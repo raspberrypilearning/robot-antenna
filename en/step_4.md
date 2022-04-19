@@ -30,7 +30,7 @@ Power on your Raspberry Pi and wait for it to boot.
 
 Open Scratch 3 by clicking on the menu and then **Programming**, followed by **Scratch 3**.
 
-![Open Scratch 3](images/open-scratch.png)
+![Open Scratch 3](images/launch-scratch3.png)
 
 --- /task ---
 
