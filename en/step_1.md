@@ -18,14 +18,26 @@ title: What you will need
 * A Raspberry Pi 4 and associated peripherals
 * 1× LED
 * 1× resistor (any resistor above 100 ohms will be fine)
-* 4× female-to-female jumper lead
+* 4× socket-to-socket jumper leads
 * A mini speaker or headphones
 
 #### Software
 
-You will need the latest version of Raspbian, which already includes Scratch 2.
+You will need the latest version of Raspbian and Scratch 3 Desktop
 
-**Note:** Scratch 3 will **only** work on the Raspberry Pi 4,
+**Note:** Scratch 3 will **only** work on the Raspberry Pi 4.
+
+To install Scratch 3, open up **Recommended Software** from the application menu
+
+![Application menu shown, with Recommended Software highlighted](images/recommended-software.png)
+
+Find Scratch 3 in the **Programming Menu** and select the check box, then click **Apply**
+
+![Recommended software menu shown with Scratch 3 selected](images/scratch-3.png)
+
+You will find Scratch 3 in the application menu, under **Programming**.
+
+![Application menu with Programming selected and Scratch 3 shown](images/launch-scratch3.png)
 
 ### Additional craft materials
 
