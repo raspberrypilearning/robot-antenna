@@ -1,3 +1,4 @@
+---
 title: Robot antenna
 hero_image: images/banner.png
 description: Control a robot's antenna light with a Raspberry Pi and code blocks
@@ -5,12 +6,16 @@ listed: true
 copyedit: true
 version: 4.1.0
 last_tested: 2019-08-19
-steps: 
+steps:
 - title: Introduction
 - title: Make an antenna
 - title: Connect your antenna
+  completion:
+  - engaged
 - title: Make the antenna flash with code
 - title: Make a cardboard robot
-- title: "Challenge: beeps and flashes"
+  completion:
+  - internal
+- title: 'Challenge: beeps and flashes'
   challenge: true
 - title: What next?
