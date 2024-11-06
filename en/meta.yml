@@ -2,7 +2,7 @@
 title: Robot antenna
 hero_image: images/banner.png
 description: Control a robot's antenna light with a Raspberry Pi and code blocks
-listed: true
+listed: false
 copyedit: true
 version: 4.1.0
 last_tested: 2019-08-19
